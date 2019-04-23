@@ -37,7 +37,7 @@ get '/:operation/:number1/:number2' do
   "#{@num2 - @num1}"
   "#{@num1 * @num2}"
   "#{@num1/@num2}"
-  
+
   erb :operation
 end
 
